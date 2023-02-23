@@ -26,8 +26,25 @@ class LandingPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              const SizedBox(height: 64.0),
               const Text(
-                'Welcome to our Wedding App!',
+                'Welcome to ',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 32.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(
+                'Sandra and Shane\'s ',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 32.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(
+                'Wedding App!',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 32.0,
@@ -36,7 +53,7 @@ class LandingPage extends StatelessWidget {
               ),
               const SizedBox(height: 16.0),
               const Text(
-                'Get all the information about our wedding at your fingertips.',
+                'All the information about the wedding is here.',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20.0,
@@ -57,7 +74,7 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
                       text: 'Venue Information',
                       onTap: () {
@@ -69,7 +86,7 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
                       text: 'Accommodation Information',
                       onTap: () {
@@ -81,9 +98,9 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
-                      text: 'Bridal Party Contact Information',
+                      text: 'Bridal Party Contact',
                       onTap: () {
                         Navigator.push(
                           context,
@@ -93,9 +110,9 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
-                      text: 'Monetary Gifts',
+                      text: 'Gifts',
                       onTap: () {
                         Navigator.push(
                           context,
@@ -105,7 +122,7 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
                       text: 'Cloud Storage Link/QR code',
                       onTap: () {
@@ -117,9 +134,9 @@ class LandingPage extends StatelessWidget {
                         );
                       },
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 16.0),
                     CustomButton(
-                      text: 'E-Greeting Card',
+                      text: 'Guest Book',
                       onTap: () {
                         Navigator.push(
                           context,

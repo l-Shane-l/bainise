@@ -67,6 +67,7 @@ class VenuePage extends StatelessWidget {
                     // Navigate to Map Page
                   },
                 ),
+                const SizedBox(height: 16.0),
                 CustomButton(
                   text: 'Contact Venue',
                   onTap: () {
