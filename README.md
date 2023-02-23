@@ -1,6 +1,6 @@
 # wedding_app
 
-A new Flutter project.
+A new Flutter project 2023
 
 ## Getting Started
 
